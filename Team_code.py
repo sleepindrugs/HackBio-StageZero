@@ -1,9 +1,8 @@
 # Python Script: Team Information + Favorite Gene DNA Sequence
-
 team = [
     {
         "name": "Sweeta Selvan",
-        "slack_username": "@sweeta selvan",
+        "slack_username": "@SWEETA SELVAN",
         "country": "India",
         "hobby": "Watching films",
         "affiliation": "Student (Anna University, Chennai), UAA",
@@ -23,7 +22,7 @@ team = [
         }  },
     {
         "name": "Gloria Omogwigho Akpederi",
-        "slack_username": "@gloria ",
+        "slack_username": "@Gloria Akpederi ",
         "country": "Nigeria",
         "hobby": "Baking",
         "affiliation": "Student (University of Lagos)",
@@ -31,18 +30,18 @@ team = [
             "gene_name": "ACE2",
             "dna_sequence": "ATGGAGAGCCCTGTTCACATCTCCTCCTGCTCTCCTGCTCCTGCTCCTGCTCCTGGAGGAGGAGATCTTCCTCCTGCTGCTCTGCCT"
         }  },
-    {
-        "name": "Umunakwe Goodness",
-        "slack_username": "@goodness",
-        "country": "Nigeria",
-        "hobby": "Reading novels",
-        "affiliation": "Student (University of Nigeria, Nsukka)",
+{
+        "name": "Adarsh",
+        "slack_username": " @Adarsh",
+        "country": "India",
+        "hobby": "singing",
+        "affiliation": "Student (Sastra University,Thanjavur ), GUA",
         "favorite_gene": {
-            "gene_name": "HBA1",
-            "dna_sequence": "ATGGTGCACCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAGTTGGTGGTGAGGCCCTGG"
-        } }
+            "gene_name": "cd33",
+            "dna_sequence": "ATGGCAAACACTGCTGAAGC"
+        } },
+}
 ]
-
 # Print the information
 for member in team:
     print(f"Name: {member['name']}")
